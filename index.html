@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\styles.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <div class="toolbar">
+        <h1>Text Editor</h1>
+        <label for="font-family">Font Family:</label>
+        <select id="font-family">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+
+        <label for="font-size">Font Size:</label>
+        <input type="number" id="font-size" value="16">
+
+        <label for="font-color">Font Color:</label>
+        <input type="color" id="font-color" value="#000000">
+
+        <label for="font-style">Font Style:</label>
+        <select id="font-style">
+            <option value="normal">Normal</option>
+            <option value="italic">Italic</option>
+            <option value="oblique">Oblique</option>
+        </select>
+        <button id="save-button">Save</button>
+    </div>
+    
+    <textarea id="editor"></textarea>
+
+    <script src="\script.js"></script>
+</body>
+</html>
