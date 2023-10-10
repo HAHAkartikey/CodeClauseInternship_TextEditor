@@ -1,6 +1,7 @@
 # Text Editor Project
 
-![Text Editor](text-editor.png)
+![Text Editor]![Screenshot 2023-10-05 174350](https://github.com/HAHAkartikey/CodeClauseInternship_TextEditor/assets/88485018/60af2b9c-81f4-4064-9ba0-8aa43216e25e)
+
 
 ## Table of Contents
 
@@ -27,12 +28,6 @@ This project is a simple text editor created using HTML, CSS, and JavaScript. It
 - **Save and Load**: You can save your text documents locally in your browser's storage and load them for future editing.
 
 - **Responsive Design**: The text editor is designed to be responsive, ensuring a seamless experience on both desktop and mobile devices.
-
-## Demo
-
-You can try out the Text Editor by visiting the [demo page](https://your-demo-link.com).
-
-![Text Editor Demo](demo.gif)
 
 ## Installation
 
